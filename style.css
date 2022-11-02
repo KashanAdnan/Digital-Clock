@@ -1,0 +1,56 @@
+body{
+    background-color: slateblue;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.page{
+    background-color: slateblue;
+    width: 50%;
+    height: auto;
+    padding: 40px;
+    box-shadow: 0px 0px 20px#ccc;
+    border-radius: 25px;
+}
+.page_box{
+    width: 23%;
+    height: 120px;
+    float: left;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 25px;
+    flex-direction: column;
+}
+.page_box h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+.page_box h5{
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
+}
+.page h1{
+    text-align: center;
+    color: #fff;
+    margin-top: -25px;
+}
+#hour{
+    margin-bottom: -40px;
+}
+#second{
+    margin-bottom: -40px;
+}
+#minute{
+    margin-bottom: -40px;
+}
+#ampm{
+    margin-bottom: -40px;
+}
